@@ -94,3 +94,4 @@ firebase.json
 
 # Mac files
 .DS_Store
+.vercel

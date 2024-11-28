@@ -2,7 +2,7 @@
   "name": "dummyjson",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "Muhammad Ovi <contact@muhammadovi.com>",
+  "author": "hoangnm",
   "scripts": {
     "start": "node index.js",
     "dev": "env-cmd -f config/dev.env nodemon index.js",
@@ -13,7 +13,7 @@
   "engines": {
     "node": ">=18.0"
   },
-  "license": "MIT",
+  "license": "",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.485.0",
     "axios": "^1.7.7",
