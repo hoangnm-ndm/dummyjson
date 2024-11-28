@@ -7,6 +7,8 @@ const { validateEnvVar } = require('./src/utils/util');
 const { setupCRONJobs } = require('./src/utils/cron-jobs');
 const { version } = require('./package.json');
 
+require('dotenv').config();
+
 const { PORT = 8888, NODE_ENV } = process.env;
 
 const numCPUs = os.cpus().length;

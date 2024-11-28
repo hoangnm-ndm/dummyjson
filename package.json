@@ -13,9 +13,6 @@
     "public:use-dev": "node scripts/switch-public-url.js --target \"http://localhost:3000/public\" --source \"https://assets.dummyjson.com/public\"",
     "public:use-cdn": "node scripts/switch-public-url.js --target \"https://assets.dummyjson.com/public\" --source \"http://localhost:3000/public\""
   },
-  "engines": {
-    "node": ">=18.0"
-  },
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.485.0",
@@ -24,6 +21,7 @@
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-rate-limit": "^5.4.1",
