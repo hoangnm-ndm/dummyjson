@@ -7,8 +7,6 @@ const routes = require('./src/routes');
 const { loadDataInMemory, isDev, redirectFn } = require('./src/utils/util');
 const { log } = require('./src/helpers/logger');
 
-// require('dotenv').config();
-
 const { PORT = 8888 } = process.env;
 
 const app = express();
